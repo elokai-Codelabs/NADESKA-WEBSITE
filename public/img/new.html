@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>FMN</title>
+  </head>
+  <body>
+    <div class="">
+      <header
+        class="flex justify-between items-center bg-white py-4 px-6 lg:px-12"
+      >
+        <img src="img/logo.jpeg" alt="logo" class="w-20" />
+        <nav class="flex items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6 cursor-pointer lg:hidden"
+            id="burger"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+          <ul class="hidden lg:flex text-xl">
+            <li class="mx-4 lg:mx-8">Home</li>
+            <li class="mx-4 lg:mx-8">About</li>
+            <li class="mx-4 lg:mx-8">Contact</li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="relative">
+        <div class="absolute">
+          <div class="hidden lg:block md:block max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 w-[550px] ml-7">
+            <p class="text-gray-500 text-[40px]">Choose organic choose better</p>
+           <p class = "mt-5">NADESKA VENTURES is an indigenous Ghanaian company specializing in personal care products and household detergents with the brand name FMN NATURALS. Our product range includes shea soufflé, black soap gel and a citrus multipurpose wash.</p>
+           <button class="p-4 mt-6 text-[25px] rounded-md bg-[#FC5A25] text-white flex items-center">
+            Read More
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+            />
+          </svg>
+          </button>
+
+          </div>
+        </div>
+        <div class="h-[650px] bg-no-repeat bg-cover bg-center" style="background-image: url('img/banner.svg');"></div>
+      </section>
+
+      <div class="mt-14 mb-8 p-4 sm:p-10">
+        <p class="text-center text-3xl font-poppins relative">Message from CEO
+          <span class="absolute bottom-0 left-1/2 transform -translate-x-1/2 h-1 w-12 bg-mainred"></span>
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-14 w-full">
+          <div class="sm:pl-20 p-8">
+            <div class="relative">
+              <div class="w-52 h-52 rounded-sm bg-[#FC5A25]"></div>
+              <div class="absolute rounded-sm top-20 left-20 bg-[url('img/ceo.png')] bg-cover bg-center w-52 h-52"></div>
+            </div>
+          </div>
+          <div class="p-8">
+            <p class="font-poppins font-semibold text-lg sm:text-2xl">Fidaus Mohammed</p>
+            <span class="text-sm sm:text-base">CEO</span>
+            <div class="text-sm sm:text-base mt-4">
+              <p>
+                Our Mission is to offer a wide range of well-formulated skincare products and household detergents at affordable prices to allow as many people as possible to be able to afford them.
+              </p>
+              <p>
+                TO BECOME THE GLOBALLY PREFERRED SKINCARE AND HOME DETERGENTS BRAND.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--  -->
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

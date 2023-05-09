@@ -8,7 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>FMN</title>
   </head>
-  <body>
+  <body class="bg-gray-100">
     <div class="">
       <header
         class="flex justify-between items-center bg-white py-4 px-6 lg:px-12"
@@ -38,38 +38,158 @@
         </nav>
       </header>
 
-      <section>
-        <div class="relative">
-          <img src="img/banner.svg" alt="banner" class="" />
-        </div>
-        <div class="">
-          <h1 class="">One of the main types</h1>
-          <p class="">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
-            libero quam, doloribus doloremque quibusdam mollitia officia quia
-            esse debitis, ut sapiente sunt facilis! Non, perferendis unde natus
-            labore similique esse.
-          </p>
-          <div class="bg-white-200 w-40 flex justify-center m-2 p-4 rounded">
-            <a href="" class="mr-2">Read more</a>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="w-6 h-6"
+      <section class="relative">
+        <div class="absolute">
+          <div
+            class="hidden lg:block md:block max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 w-[550px] ml-7"
+          >
+            <p class="text-gray-500 text-[40px]">
+              Choose organic choose better
+            </p>
+            <p class="mt-5">
+              NADESKA VENTURES is an indigenous Ghanaian company specializing in
+              personal care products and household detergents with the brand
+              name FMN NATURALS. Our product range includes shea soufflé, black
+              soap gel and a citrus multipurpose wash.
+            </p>
+            <button
+              class="p-4 mt-6 text-[25px] rounded-md bg-[#FC5A25] text-white flex items-center"
             >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-              />
-            </svg>
+              Read More
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div
+          class="h-[650px] bg-no-repeat bg-cover bg-center"
+          style="background-image: url('img/banner.svg')"
+        ></div>
+      </section>
+
+      <div class="mt-14 mb-8 p-4 sm:p-10">
+        <p class="text-center text-3xl font-poppins relative">
+          Message from CEO
+          <span
+            class="absolute bottom-0 left-1/2 transform -translate-x-1/2 h-1 w-12 bg-mainred"
+          ></span>
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-14 w-full">
+          <div class="sm:pl-20 p-8">
+            <div class="relative">
+              <div class="w-52 h-52 rounded-sm bg-[#FC5A25]"></div>
+              <div
+                class="absolute rounded-sm top-20 left-20 bg-[url('img/image1.png')] bg-cover bg-center w-52 h-52"
+              ></div>
+            </div>
+          </div>
+          <div class="p-8">
+            <p class="font-poppins font-semibold text-lg sm:text-2xl">
+              Fidaus Mohammed
+            </p>
+            <span class="text-sm sm:text-base">CEO</span>
+            <div class="text-sm sm:text-base mt-4">
+              <p>
+                Our Mission is to offer a wide range of well-formulated skincare
+                products and household detergents at affordable prices to allow
+                as many people as possible to be able to afford them.
+              </p>
+              <p>
+                TO BECOME THE GLOBALLY PREFERRED SKINCARE AND HOME DETERGENTS
+                BRAND.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- card start -->
+      <section>
+        <h1 class="text-4xl flex justify-center my-4 relative">
+          <span
+            class="bg-gray-300 h-0.5 absolute bottom-0 left-1/2 transform -translate-x-1/2 w-12"
+            style="background-color: #d2b805"
+          ></span>
+          <span class="px-4 mt-4">About Us</span>
+        </h1>
+
+        <div class="grid lg:grid-cols-3 gap-10 mx-8">
+          <!-- 1st card -->
+          <div class="flex items-center justify-center">
+            <div
+              class="bg-white rounded overflow-hidden shadow-md mb-10 w-70 h-60 m-4"
+            >
+              <div class="flex justify-center py-3 px-2">
+                <div
+                  class="bg-gradient-to-r from-red-100 to-red-200 py-2 px-3 rounded mt-3"
+                >
+                  <img src="img/mision.svg" alt="" class="w-10" />
+                </div>
+              </div>
+              <h1 class="text-2xl flex justify-center py-2 px-2">Mission</h1>
+              <p class="text-[16px] flex justify-center py-3 px-8 mb-8">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officia, aliquam aut blanditiis
+              </p>
+            </div>
+          </div>
+
+          <!-- 2nd -->
+          <div class="flex items-center justify-center">
+            <div
+              class="bg-white rounded overflow-hidden shadow-md mb-10 w-70 h-60 m-4"
+            >
+              <div class="flex justify-center py-2 px-2">
+                <div
+                  class="bg-gradient-to-r from-green-100 to-green-200 p-2 rounded mt-3"
+                >
+                  <img src="img/vision.svg" alt="" class="w-10" />
+                </div>
+              </div>
+              <h1 class="text-2xl flex justify-center py-2 px-2">Vision</h1>
+              <p class="text-[16px] flex justify-center py-3 px-8 mb-8">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officia, aliquam aut blanditiis
+              </p>
+            </div>
+          </div>
+
+          <!-- 3rd -->
+          <div class="flex items-center justify-center">
+            <div
+              class="bg-white rounded overflow-hidden shadow-md mb-10 w-70 h-60 m-4"
+            >
+              <div class="flex justify-center py-2 px-2">
+                <div
+                  class="bg-gradient-to-r from-yellow-200 to-yellow-400 p-2 rounded mt-3"
+                >
+                  <img src="img/corevales.svg" alt="" class="w-10" />
+                </div>
+              </div>
+              <h1 class="text-2xl flex justify-center py-2 px-2">
+                Core Values
+              </h1>
+              <p class="text-[16px] flex justify-center py-3 px-8 mb-8">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officia, aliquam aut blanditiis
+              </p>
+            </div>
           </div>
         </div>
       </section>
-      <!--  -->
+      <!-- card end -->
     </div>
     <script src="index.js"></script>
   </body>
