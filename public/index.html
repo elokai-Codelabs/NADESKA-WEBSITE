@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>FMN</title>
+  </head>
+  <body>
+    <div class="">
+      <header
+        class="flex justify-between items-center bg-white py-4 px-6 lg:px-12"
+      >
+        <img src="img/logo.jpeg" alt="logo" class="w-20" />
+        <nav class="flex items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6 cursor-pointer lg:hidden"
+            id="burger"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+          <ul class="hidden lg:flex text-xl">
+            <li class="mx-4 lg:mx-8">Home</li>
+            <li class="mx-4 lg:mx-8">About</li>
+            <li class="mx-4 lg:mx-8">Contact</li>
+          </ul>
+        </nav>
+      </header>
+
+      <section>
+        <div class="relative">
+          <img src="img/banner.svg" alt="banner" class="" />
+        </div>
+        <div class="absolute top-20">
+          <h1 class="">One of the main types</h1>
+          <p class="">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
+            libero quam, doloribus doloremque quibusdam mollitia officia quia
+            esse debitis, ut sapiente sunt facilis! Non, perferendis unde natus
+            labore similique esse.
+          </p>
+          <div class="bg-white-200 w-40 flex justify-center m-2 p-4 rounded">
+            <a href="" class="mr-2">Read more</a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+              />
+            </svg>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
